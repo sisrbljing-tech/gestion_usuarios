@@ -1,3 +1,23 @@
+"""
+=========================================================
+SISTEMA DE GESTIÓN DE USUARIOS
+=========================================================
+
+Descripción:
+Sistema de consola para administrar Usuarios.
+
+Funcionalidades:
+1. Registrar usuario
+2. Mostrar usuarios - (Cantidad y Promedio)
+3. Buscar usuario
+4. Eliminar usuario
+5. Ordenar usuario - (Nombre o Edad)
+6. Mostrar Archivo de Errores
+
+Autor:
+Ricardo Lopez
+=========================================================
+"""
 from datetime import datetime
 
 # Archivo donde se almacenan los usuarios válidos
@@ -287,7 +307,7 @@ def mostrar_errores():
 def menu():
     opcion = ""
     while opcion != "7":
-        print("\n===== MENÚ =====")
+        print("\n===== MENU =====")
         print("1. Registrar usuario")
         print("2. Mostrar usuarios - (Cantidad y Promedio)")
         print("3. Buscar usuario")
@@ -316,3 +336,4 @@ def menu():
 
 # Inicio del programa
 menu()
+"# gestion_usuarios" 
